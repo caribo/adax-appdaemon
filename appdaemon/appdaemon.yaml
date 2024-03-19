@@ -1,0 +1,17 @@
+appdaemon:
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
+  time_zone: !secret timezone
+  plugins:
+    HASS:
+      type: hass
+      namespace: hass
+      ha_url: !ha_url
+      token: !ha token
+      cert_verify: True
+http:
+  url: http://0.0.0.0:5050
+admin:
+api:
+hadashboard:

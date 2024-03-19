@@ -1,0 +1,6 @@
+adax:
+  module: adax_appdaemon
+  class: AdaxEnergy
+  adax_client: !secret adax_client
+  adax_secret: !secret adax_secret
+
