@@ -58,5 +58,6 @@ class AdaxEnergy(hass.Hass):
                 device_class = 'energy',
                 state_class = 'total_increasing',
                 unit_of_measurement = 'Wh',
-                state = energy)
+                state = energy,
+                attributes = {"energy_time": energyTime})
 
